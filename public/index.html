@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../src/style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">    
     <title>Project6</title>
 </head>
 <body>  
-    <section class="min-h-screen flex items-center justify-center flex-col ">
+    <section class="min-h-screen flex items-center justify-center flex-col bg-blue-100">
         <!-- Title -->
         <div class="font-bold text-yellow-600 text-4xl font-great flex justify-center ">
             <h2>General Questions</h2>
         </div>
         <!-- Questions -->
-        <div>
+        <div class="w-10/12">
             <!-- Single question -->
-            <article class="border-2 border-gray-100 my-4 rounded-xl shadow-xl mx-auto w-11/12 lg:mx-auto lg:w-8/12 lg:flex lg:justify-center lg:flex-col">
+            <article class="question  bg-white border-2 border-gray-100  my-4 rounded-xl shadow-xl mx-auto w-11/12 lg:mx-auto lg:w-8/12 lg:flex lg:justify-center lg:flex-col">
                 <!-- Question title -->
-                <div class="h-20 px-2 flex justify-between items-center">
+                <div class="h-14 px-2 flex justify-between items-center">
                     <p class="text-xl">Do you accept all major credit cards?</p>
-                    <button class="flex">
-                        <span class="text-yellow-600">
+                    <button class="question-btn flex">
+                        <span class="text-yellow-600 plus-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </span>
-                        <span class="text-yellow-600">
+                        <span class="text-yellow-600 minus-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
@@ -37,7 +38,7 @@
                     </button>
                 </div>
                 <!-- Question text -->
-                <div class="px-2 pb-2">
+                <div class="px-2 pb-2 question-text">
                     <p class="font-serif">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
                         dolore illo dolores quia nemo doloribus quaerat, magni numquam
@@ -46,17 +47,17 @@
                 </div>
             </article>
             <!-- Single question -->
-            <article class="border-2 border-gray-100 my-4 rounded-xl shadow-xl mx-auto w-11/12 lg:mx-auto lg:w-8/12 lg:flex lg:justify-center lg:flex-col">
+            <article class="question bg-white border-2 border-gray-100 my-4 rounded-xl shadow-xl mx-auto w-11/12 lg:mx-auto lg:w-8/12 lg:flex lg:justify-center lg:flex-col">
                 <!-- Question title -->
                 <div class="h-20 px-2 flex justify-between items-center ">
-                    <p class="text-xl">Do you accept all major credit cards?</p>
-                    <button class="flex">
-                        <span class="text-yellow-600">
+                    <p class="text-xl">Do you support local Farmers?</p>
+                    <button class="question-btn flex">
+                        <span class="text-yellow-600 plus-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </span>
-                        <span class="text-yellow-600">
+                        <span class="text-yellow-600 minus-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
@@ -64,7 +65,7 @@
                     </button>
                 </div>
                 <!-- Question text -->
-                <div class="px-2 pb-2">
+                <div class="px-2 pb-2 question-text">
                     <p class="font-serif">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
                         dolore illo dolores quia nemo doloribus quaerat, magni numquam
@@ -73,17 +74,17 @@
                 </div>
             </article>
             <!-- Single question -->
-            <article class="border-4 border-gray-100 my-4 rounded-xl shadow-xl mx-auto w-11/12 lg:mx-auto lg:w-8/12 lg:flex lg:justify-center lg:flex-col">
+            <article class="question bg-white  border-4 border-gray-100 my-4 rounded-xl shadow-xl mx-auto w-11/12 lg:mx-auto lg:w-8/12 lg:flex lg:justify-center lg:flex-col">
                 <!-- Question title -->
                 <div class="h-20 px-2 flex justify-between items-center ">
-                    <p class="text-xl">Do you accept all major credit cards?</p>
-                    <button class="flex">
-                        <span class="text-yellow-600">
+                    <p class="text-xl">Do you use organic ingredients?</p>
+                    <button class="question-btn flex">
+                        <span class="text-yellow-600 plus-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </span>
-                        <span class="text-yellow-600">
+                        <span class="text-yellow-600 minus-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
@@ -91,8 +92,8 @@
                     </button>
                 </div>
                 <!-- Question text -->
-                <div class="px-2 pb-2">
-                    <p class="font-serif">
+                <div class="px-2 pb-2 ">
+                    <p class="font-serif question-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
                         dolore illo dolores quia nemo doloribus quaerat, magni numquam
                         repellat reprehenderit.
